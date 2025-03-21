@@ -35,6 +35,7 @@ export default function Home() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setRes("");
     const apiKe = "AIzaSyA9MeUuQPBMwUXtol3eg-b3dcPaEk6de6w"
     // const promptInput = prompt
     const apiKey = apiKeyValue.length === 0 ? apiKe : apiKeyValue;
